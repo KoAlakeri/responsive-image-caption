@@ -24,24 +24,47 @@ body {
 
 p {
   font-family: Georgia;
+  text-decoration: none;
 }
 
-@media only screen and (min-width: 25em) {
-
-
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
 
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
 
+  section {
+    background-color: rgba(0, 0, 0, .3);
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
-
+  html {
+    font-size: 120%;
+    line-height: 1.4;
+  }
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 130%;
+    line-height: 1.5;
+  }
 
 }
